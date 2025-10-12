@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -12,49 +12,106 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
         <style>
+            body {
+                background-color: rgb(64, 64, 64);
+                box-shadow: 0 0 200px rgba(0,0,0,0.5) inset;
+            }
+            #container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction:column;
+                min-height: 100vh;
+            }
+            p, h2, h3, h4, table, td, a {
+                color: white;
+                font-family: 'SUSE Mono', monospace;
+                text-shadow: 2px 2px 4px #ffffff;
+                text-align: center;
+            }
+            table, td {
+                border: 1px white solid;
+                padding:10px;
+            }
+            u {
+                color: rgb(169, 6, 6);
+                text-shadow: 2px 2px 4px #490505;
+            }
+            #img, #media {
+                border-radius: 10px;
+                box-shadow: 1px 1px 30px #000000;
+            }
+            #spacing {
+                color:rgb(64, 64, 64);
+                text-shadow:none;
+            }
+
         </style>
     </head>
     <body>
-    <div id="folder">
-        <header style="float:center;">
+        <div id="container">
+        <header>
             <img style="width:100px"; src="../assetimg/roblox.png">
             <h2>Favorite Roblox Horror Games</h2>
             <h4>by Li03, <em>Li06,</em> Li30</h4>
-            <a id="link" href="../index.html">Homepage</a>
-            <a href="https://iyasrxz.github.io/2QPortfolioLiBinaday/public/2Q1GLithiumBinaday.html">Aliya's Favorite</a>
-            <a href="https://quinnyap.github.io/2QPortfolioLiYap/public/2Q1GLithiumYap.html">Quinn's Favorite</a>
+            <p id="spacing">. </p>
+            <p>Navigation ^. .^₎Ⳋ :</p>
+            <a id="link" href="../index.html">Homepage | </a>
+            <a href="https://iyasrxz.github.io/2QPortfolioLiBinaday/public/2Q1GLithiumBinaday.html">Aliya's Favorite (FTF) | </a>
+            <a href="https://quinnyap.github.io/2QPortfolioLiYap/public/2Q1GLithiumYap.html">Quinn's Favorite (3008)</a>
         </header>
-        <div id="left" style="float:left; width: 745px; height: 200px";>
+        <h2>Sabbie's Favorite: Anomaly Watch</h2>
+        <img id="img" style="width:300px" src="../assetimg/entity.png">
             <h2>Overview of Anomaly Watch:</h2>
-            <b><p>Anomaly Watch is a Roblox horror game wherein you need to search out changes in objects such as; distortion, extra objects, missing objects etc. Alongside having to clear out anomalies within your area, strange figures start to appear—Intruders. Try your best to report all anomalies and survive until 6 AM.</p>
-            <p>This game gives off a dark atmosphere in a house (first part), an office (second part), or a church (third part). The game builds up tension to the point that you would know that something or someone would be out there to get you. This aspect is what makes the game more eerie and unnerving, rather than just giving you a heads up that you'll be chased.</p></b>
-            <p id="space">.</p>
-        <h3>All Anomalies in Church Map:</h3>
-        <iframe width="560" height="315" id ="media" src="https://www.youtube.com/embed/9Iv8h37Q_6U?si=hf9kLxN-XeXJJ1sk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div id="right">
-            <img id="entity" src="../assetimg/entity.png">
-        </div>
-        <div id="bottomright">
-            <table id="info"; style="text-align:center";>
+            <b>
+                <p>Anomaly Watch is a Roblox horror game wherein you need to search out changes in objects such as; <br> distortion, extra objects, missing objects etc. This game was inspired by  a Web Series on YT  (Mandela Catalogue) <br> and I'm on Observation Duty Games. Alongside having to clear out anomalies within your area, strange figures start <br>to appear—Intruders. Try your best to report all anomalies and survive until 6 AM.</p>
+                <p>The game starts off by giving you a tablet where you would be reporting the anomalies you see. You must be in the <br> perimeter/area of the anomaly in order to get rid of it. There are three threat levels: None, Vague, Mild and <u>Evident.</u><br> In this game, you'd definitely want to avoid the Threat Level of Evident, as you would get a warning of <u>"TOO MANY ANOMALIES".</u><br> If you get this warning two times, it would cause an <u>unreportable anomaly</u> to come and get you.</p>
+                <p>This game gives off a dark atmosphere in a house (first part), an office (second part), or a church (third part). <br>The game builds up tension to the point that you would know that something or someone would be out there to get you. <br>This aspect is what makes the game more eerie and unnerving, rather than just giving you a heads up that you'll be chased.</p>
+            </b>
+            
+            <table id="info">
                 <tr>
                     <td>Maps</td>
                     <td>Unreportable Intruders</td>
+                    <td>Other Intruders</td>
+                    <td>Developers</td>
+                    <td>Game Statistics</td>
                 </tr>
                 <tr>
                     <td>House</td>
                     <td>Hooded Man</td>
+                    <td>Censored Figure</td>
+                    <td>punitto</td>
+                    <td>Like Percent : 87%</td>
                   </tr>
                   <tr>
                     <td>Office</td>
                     <td>Hooded Man</td>
+                    <td>Runner Entity</td>
+                    <td>HapiKool</td>
+                    <td>Total Visits: 27.8M</td>
                   </tr>
                   <tr>
                     <td>Church</td>
                     <td>Archangel Gabriel</td>
+                    <td>Disguised Intruder</td>
+                    <td>wnterish</td>
+                    <td>Genre: Escape/Horror</td>
+                    <td></td>
                   </tr>
             </table>
+        <h3>Guide to All the Anomalies in Church Map:</h3>
+        <iframe width="560" height="315" id ="media" src="https://www.youtube.com/embed/9Iv8h37Q_6U?si=hf9kLxN-XeXJJ1sk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-    </div>
+        <footer>
+            <section>
+                <h4>𑣲 References used:</h4>
+                <p>W3Schools.com. (n.d.). https://www.w3schools.com/css/css3_shadows.asp</p>
+                <p>D1SZI. (2024, March 28). Anomaly Watch - All types of Anomalies/Deaths [Video]. YouTube. https://www.youtube.com/watch?v=yO6n_TbcH9M</p>
+                <p>D1SZI. (2024b, May 4). Anomaly Watch [Office] - All types of Anomalies/Entities [Video]. YouTube. https://www.youtube.com/watch?v=2iCL_DNAwBE</p>
+                <p>D1SZI. (2025, March 5). Roblox Anomaly Watch - All types of Anomalies/Entites [CHURCH] [Video]. YouTube. https://www.youtube.com/watch?v=9Iv8h37Q_6U</p>
+                <p>UNA.IM | CSS Image Effects #3: Vignettes 3 Ways. (2015, October 9). https://una.im/vignettes/</p>
+            </section>
+        </footer>
     </body>
 </html>
