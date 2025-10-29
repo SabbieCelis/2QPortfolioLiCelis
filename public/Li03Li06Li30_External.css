@@ -1,0 +1,27 @@
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    min-height: 100vh;
+}
+p, h2, h3, h4, table, td, a, b {
+    color: white;
+    font-family: 'SUSE Mono', monospace;
+    text-shadow: 2px 2px 4px #ffffff;
+    text-align: center;
+}
+a:hover {
+    color:#a10101;
+    text-shadow: 2px 2px 4px rgb(60, 0, 0)
+}
+#img, #media {
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px #000000;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#img:hover, #media:hover {
+    transform: translateY(-3px);
+    box-shadow: 1px 1px 30px #a10101;
+}
