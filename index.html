@@ -10,17 +10,74 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" href="./assetimg/p5logo.png" sizes="16x16" type="image/png">
         <script src="script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+        <style>
+            body {
+                background-color: rgb(23, 23, 23);
+            }
+            header {
+                background-image: url("assetimg/futaba.jpg");
+                background-size: cover;
+                background-position: top;
+                background-repeat: no-repeat;
+                height: 300px;
+                display: flex;
+                justify-content: flex-start;
+                font-family: sans-serif;
+                font-size: 24px;
+                text-align: right;
+            }
+            .logo {
+                size: 90px;
+                height: 100px;
+                margin-top: 55px;
+                margin-left: 600px;
+            }
+            h1 {
+                font-family: 'Jersey 10', sans-serif;
+                letter-spacing: 5px;
+                margin-top: 66px;
+                margin-left: 50px;
+                text-align: right;
+                color: white;
+            }
+            p {
+                font-family: 'Jersey 10', sans-serif;
+                letter-spacing: 2px;
+            }
+            footer, section {
+                background-color: rgb(223, 4, 4);
+                text-align: center;
+                padding: 2px;
+                font-size: 14px;
+            }
+            nav, ul {
+                text-align: center;
+                color: rgb(23, 23, 23)
+            }
+            a, strong {
+                color: white;
+                margin: 10px;
+            }
+
+        </style>
     </head>
     <body>
-        <img src="./assetimg/p5logo.png" style="width:100px";>
-        <h1>Sabbie's 2Q Portfolio ( ˶°ㅁ°) !!</h1>
-        <nav>
-        <ul>
-            <li><strong><a href="./public/2Q1GLithiumCelis.html"> Q2 First Graded Exercise </a></strong></li>
-            <li><strong><a href="./public/Q21NGLithiumCelis.html"> Q2 First Non-Graded Exercise </a></strong></li>
-        </ul>
-        </nav>
+        <header img="futaba.jpg">
+            <img src="./assetimg/p5logo.png" class="logo" style="width:100px";>
+            <h1>Sabbie's 2Q Portfolio ( ˶°ㅁ°) !!</h1>
         </header>
+        <div class="flipcard">
+            <div class="front" img src="assetimg/callingcard.jpg"></div>
+            <nav>
+                <ul>
+                    <li><strong><a href="./public/2Q1GLithiumCelis.html"> Q2 1st and 2nd Graded Exercise </a></strong></li>
+                    <li><strong><a href="./public/Q21NGLithiumCelis.html"> Q2 1st Non-Graded Exercise </a></strong></li>
+                </ul>
+            </nav>
+        </div>
         <footer>
             <section>
                 <p>Copyright <span>&copy; 2025 Sabbie Celis</p>
